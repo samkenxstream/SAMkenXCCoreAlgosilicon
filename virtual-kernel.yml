@@ -1,0 +1,29 @@
+SamKenX-virtual-kernel.yml:
+
+version: '3.7'
+
+services:
+
+  virtual-kernel:
+
+    image: samkenx/virtual-kernel:latest
+
+    environment:
+
+      - ALGO_COMPUTING_FUNCTION=<encoded algorithm computing function>
+
+    command:
+
+      - builder
+
+      - resolver
+
+    ports:
+
+      - "3000:3000"
+
+    volumes:
+
+      - "/var/run/docker.sock:/var/run/docker.sock"
+
+      - "/usr/local/bin:/usr/local/bin"
