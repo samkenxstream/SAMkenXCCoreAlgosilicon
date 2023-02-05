@@ -33,7 +33,7 @@ Specifications:
 
 # Referrence :
 
-" 'S'ystem - 'A'lgorithmic -'M'echanism - 'K'ernel - 'E'quation - 'N'iche - 'X' ( algebraic variable ) " = SamKenX.json
+ "System - Algorithmic -Mechanism - Kernel - Equation - Niche - X( algebraic-variable ) " = SamKenX.json
 
 
 *
