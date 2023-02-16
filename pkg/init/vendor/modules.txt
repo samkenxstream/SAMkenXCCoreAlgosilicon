@@ -4,7 +4,7 @@ github.com/Microsoft/go-winio/backuptar
 github.com/Microsoft/go-winio/pkg/guid
 github.com/Microsoft/go-winio/pkg/security
 github.com/Microsoft/go-winio/vhd
-# github.com/Microsoft/hcsshim v0.8.24
+# github.com/Microsoft/hcsshim v0.8.25
 github.com/Microsoft/hcsshim
 github.com/Microsoft/hcsshim/computestorage
 github.com/Microsoft/hcsshim/internal/cow
@@ -30,7 +30,7 @@ github.com/Microsoft/hcsshim/pkg/ociwclayer
 github.com/bits-and-blooms/bitset
 # github.com/containerd/cgroups v1.0.3
 github.com/containerd/cgroups/stats/v1
-# github.com/containerd/containerd v1.5.16
+# github.com/containerd/containerd v1.5.18
 ## explicit
 github.com/containerd/containerd
 github.com/containerd/containerd/api/services/containers/v1
