@@ -1,6 +1,6 @@
 # This is a GitHub Action workflow to build and deploy SamKenX-INE-LX2r
 
-name: SamKenX-INE-LX2r 
+name: builf
 
 on: 
   push:
