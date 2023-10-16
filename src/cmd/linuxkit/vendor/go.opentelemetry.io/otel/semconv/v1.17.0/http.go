@@ -12,13 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package unit // import "go.opentelemetry.io/otel/metric/unit"
+package semconv // import "go.opentelemetry.io/otel/semconv/v1.17.0"
 
-type Unit string
-
-// Units defined by OpenTelemetry.
-const (
-	Dimensionless Unit = "1"
-	Bytes         Unit = "By"
-	Milliseconds  Unit = "ms"
+// HTTP scheme attributes.
+var (
+	HTTPSchemeHTTP  = HTTPSchemeKey.String("http")
+	HTTPSchemeHTTPS = HTTPSchemeKey.String("https")
 )

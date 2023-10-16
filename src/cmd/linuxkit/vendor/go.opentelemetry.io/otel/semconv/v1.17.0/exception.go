@@ -12,19 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package metric // import "go.opentelemetry.io/otel/metric"
+package semconv // import "go.opentelemetry.io/otel/semconv/v1.17.0"
 
-type noopMeterProvider struct{}
-
-// NewNoopMeterProvider returns an implementation of MeterProvider that
-// performs no operations. The Meter and Instrument created from the returned
-// MeterProvider also perform no operations.
-func NewNoopMeterProvider() MeterProvider {
-	return noopMeterProvider{}
-}
-
-var _ MeterProvider = noopMeterProvider{}
-
-func (noopMeterProvider) Meter(instrumentationName string, opts ...MeterOption) Meter {
-	return Meter{}
-}
+const (
+	// ExceptionEventName is the name of the Span event representing an exception.
+	ExceptionEventName = "exception"
+)
