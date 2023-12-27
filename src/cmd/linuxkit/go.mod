@@ -14,7 +14,7 @@ require (
 	github.com/containerd/containerd v1.6.18
 	github.com/docker/buildx v0.8.2
 	github.com/docker/cli v23.0.0-rc.1+incompatible
-	github.com/docker/docker v23.0.0-rc.1+incompatible
+	github.com/docker/docker v23.0.8+incompatible
 	github.com/docker/go-units v0.5.0
 	github.com/estesp/manifest-tool/v2 v2.0.6
 	github.com/google/go-containerregistry v0.6.1-0.20211105150418-5c9c442d5d68
